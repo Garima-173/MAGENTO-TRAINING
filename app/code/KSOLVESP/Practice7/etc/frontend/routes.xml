@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="ksolvesp_practice7" frontName="Practice7">
+            <module name="KSOLVESP_Practice7" />
+        </route>
+    </router>
+</config>

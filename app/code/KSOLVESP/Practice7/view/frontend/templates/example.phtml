@@ -1,0 +1,7 @@
+<?php
+use Magento\Framework\View\Element\Template;
+use KSOLVESP\Practice7\ViewModel\ProductViewModel;
+$viewModel=$block->getData('viewmodel');
+?>
+
+<h1>View model return: <?=$viewModel->getProductBySku(‘sku’);;?></h1>
